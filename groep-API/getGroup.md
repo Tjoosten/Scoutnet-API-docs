@@ -25,17 +25,17 @@ try {
 ```
 ## Return:
 
-| Naam veld:             | Type veld:         |
-| ---------------------- | ------------------ |
-| `accountid`            | Integer            |
-| `accountname`          | String             |
-| `groupname`            | String             |
-| `groupname2`           | String             |
-| `groupID`              | Integer            |
+| Naam veld:             | Type veld:         | Description:                                                      | 
+| ---------------------- | ------------------ | ----------------------------------------------------------------- |
+| `accountid`            | Integer            | De id van je account.                                             |
+| `accountname`          | String             | De naam van je account.                                           |
+| `groupname`            | String             | De naam van je groep.                                             |
+| `groupname2`           | String             | Een alternatieve groepsnaam.                                      |
+| `groupID`              | Integer            | De id van je groep.                                               |
 | `section`              | String             |
 | `hasaddress`           | String             |
 | `street`               | String             |
-| `city`                 | String             |
+| `city`                 | String             | De naam van het dorp, stad of gemeente waar je greop is gevestigd |
 | `postcode`             | String             |
 | `countrycode`          | String             |
 | `postcodeid`           | Integer            |
