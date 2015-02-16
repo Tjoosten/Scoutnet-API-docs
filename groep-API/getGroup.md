@@ -32,11 +32,11 @@ try {
 | `groupname`            | String             | De naam van je groep.                                              |
 | `groupname2`           | String             | Een alternatieve groepsnaam.                                       |
 | `groupID`              | Integer            | De id van je groep.                                                |
-| `section`              | String             | 
+| `section`              | String             | Onder Welke sectie je groep zit. bv: Gouw Antwerpen.               |
 | `hasaddress`           | String             | y bij een address  anders een n van geen adres.                    |
 | `street`               | String             | De straat waar je groep is gevestigd.                              |
 | `city`                 | String             | De naam van het dorp, stad of gemeente waar je groep is gevestigd. |
 | `postcode`             | String             | De postcode van de gemeente waar je groep is gevestigd.            |
 | `countrycode`          | String             | De landscode.                                                      |
 | `postcodeid`           | Integer            | De id van de postcode.                                             |
-| `depname`              | String             |
+| `depname`              | String             | bv: scoutnet.be                                                    |
