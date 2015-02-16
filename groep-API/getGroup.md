@@ -25,18 +25,18 @@ try {
 ```
 ## Return:
 
-| Naam veld:             | Type veld:         | Description:                                                      |
-| :--------------------- | :----------------- | :---------------------------------------------------------------- |
-| `accountid`            | Integer            | De id van je account.                                             |
-| `accountname`          | String             | De naam van je account.                                           |
-| `groupname`            | String             | De naam van je groep.                                             |
-| `groupname2`           | String             | Een alternatieve groepsnaam.                                      |
-| `groupID`              | Integer            | De id van je groep.                                               |
-| `section`              | String             |
-| `hasaddress`           | String             |
-| `street`               | String             |
-| `city`                 | String             | De naam van het dorp, stad of gemeente waar je groep is gevestigd |
-| `postcode`             | String             |
-| `countrycode`          | String             |
-| `postcodeid`           | Integer            |
+| Naam veld:             | Type veld:         | Description:                                                       |
+| :--------------------- | :----------------- | :----------------------------------------------------------------- |
+| `accountid`            | Integer            | De id van je account.                                              |
+| `accountname`          | String             | De naam van je account.                                            |
+| `groupname`            | String             | De naam van je groep.                                              |
+| `groupname2`           | String             | Een alternatieve groepsnaam.                                       |
+| `groupID`              | Integer            | De id van je groep.                                                |
+| `section`              | String             | 
+| `hasaddress`           | String             | y bij een address  anders een n van geen adres.                    |
+| `street`               | String             | De straat waar je groep is gevestigd.                              |
+| `city`                 | String             | De naam van het dorp, stad of gemeente waar je groep is gevestigd. |
+| `postcode`             | String             | De postcode van de gemeente waar je groep is gevestigd.            |
+| `countrycode`          | String             | De landscode.                                                      |
+| `postcodeid`           | Integer            | De id van de postcode.                                             |
 | `depname`              | String             |
