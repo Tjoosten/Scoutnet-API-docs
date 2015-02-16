@@ -25,8 +25,8 @@ try {
 ```
 ## Return:
 
-| Naam veld:             | Type veld:         | Description:                                                      | 
-| ---------------------- | ------------------ | ----------------------------------------------------------------- |
+| Naam veld:             | Type veld:         | Description:                                                      |
+| :--------------------- | :----------------- | :---------------------------------------------------------------- |
 | `accountid`            | Integer            | De id van je account.                                             |
 | `accountname`          | String             | De naam van je account.                                           |
 | `groupname`            | String             | De naam van je groep.                                             |
@@ -35,7 +35,7 @@ try {
 | `section`              | String             |
 | `hasaddress`           | String             |
 | `street`               | String             |
-| `city`                 | String             | De naam van het dorp, stad of gemeente waar je greop is gevestigd |
+| `city`                 | String             | De naam van het dorp, stad of gemeente waar je groep is gevestigd |
 | `postcode`             | String             |
 | `countrycode`          | String             |
 | `postcodeid`           | Integer            |
