@@ -3,7 +3,7 @@ getRentIDs methode
 
 ## Vereiste param's
 
-`account id` = `integer`
+`account id` = ***integer***
 
 
 ## Usage:
