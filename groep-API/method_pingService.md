@@ -1,4 +1,4 @@
-getRentIDs methode
+pingService methode
 =======================
 
 ## Usage:
@@ -23,4 +23,4 @@ try {
 
 ## Return:
 
-Return = 1 bij `TRUE` & 0 bij `FALSE` 
+Return = 1 bij `TRUE` & 0 bij `FALSE`
