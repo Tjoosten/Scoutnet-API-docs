@@ -23,6 +23,7 @@ try {
     printf('<p class="pre">%s</p>', $ex->__toString());
 }
 ```
+
 ## Return:
 
 ```
