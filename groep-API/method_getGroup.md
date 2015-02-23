@@ -25,18 +25,141 @@ try {
 ```
 ## Return:
 
-| Naam veld:             | Type veld:         | Description:                                                       |
-| :--------------------- | :----------------- | :----------------------------------------------------------------- |
-| `accountid`            | Integer            | De id van je account.                                              |
-| `accountname`          | String             | De naam van je account.                                            |
-| `groupname`            | String             | De naam van je groep.                                              |
-| `groupname2`           | String             | Een alternatieve groepsnaam.                                       |
-| `groupID`              | Integer            | De id van je groep.                                                |
-| `section`              | String             | Onder Welke sectie je groep zit. bv: Gouw Antwerpen.               |
-| `hasaddress`           | String             | y bij een address  anders een n van geen adres.                    |
-| `street`               | String             | De straat waar je groep is gevestigd.                              |
-| `city`                 | String             | De naam van het dorp, stad of gemeente waar je groep is gevestigd. |
-| `postcode`             | String             | De postcode van de gemeente waar je groep is gevestigd.            |
-| `countrycode`          | String             | De landscode.                                                      |
-| `postcodeid`           | Integer            | De id van de postcode.                                             |
-| `depname`              | String             | bv: scoutnet.be                                                    |
+```
+Array (
+  [accountid] => 332
+  [accountname] => st-joris
+  [groupname] => Sint-Joris
+  [groupname2] => Scouts Turnhout
+  [groupID] => A4107M
+  [section] => Gouw Kempen - District Noorderkempen
+  [hasaddress] => y
+  [street] => Sint-Jorislaan 11
+  [city] => Turnhout
+  [postcode] => 2300
+  [countrycode] => BE
+  [postcodeid] => 2540
+  [depname] => scoutnet.be
+  [orgname] => Scouts en Gidsen Vlaanderen
+  [orgid] => 1
+  [mail] =>
+  [tel] =>
+  [latlng] => 51.3051977591932:4.94607925415039
+  [urllist] => www.st-joris-turnhout.be
+  [extra] => Array (
+    [1] => Array (
+      [zee] => n )
+
+      [2] => Array (
+        [akabe] => n
+      )
+
+      [3] => Array (
+        [verhuur] => y
+      )
+
+      [4] => Array (
+        [promo] =>
+      )
+
+      [5] => Array (
+        [waar] =>
+      )
+
+      [6] => Array (
+        [wanneer] => wanneer ?
+      )
+
+      [7] => Array (
+        [lidgeld] =>
+      )
+
+      [8] => Array (
+        [das] =>
+      )
+    )
+
+  [sections] =>
+    Array (
+      [0] => Array (
+        [section_name] => Kapoenen
+        [section_code] => kapoenen
+        [section_age] => 6,7,8
+        [section_gender] => 2
+      )
+
+      [1] => Array (
+        [section_name] => Welpen
+        [section_code] => welpen
+        [section_age] => 8,9,10,11
+        [section_gender] => 1
+      )
+
+      [2] => Array (
+        [section_name] => Jongverkenners
+        [section_code] => jongverkenners
+        [section_age] => 11,12,13
+        [section_gender] => 1
+      )
+
+      [3] => Array (
+        [section_name] => Jonggivers
+        [section_code] => jonggivers
+        [section_age] => 11,12,13
+        [section_gender] => 2
+      )
+
+      [4] => Array (
+        [section_name] => Givers
+        [section_code] => givers
+        [section_age] => 14,15,16
+        [section_gender] => 2
+      )
+
+      [5] => Array (
+        [section_name] => Jin
+        [section_code] => jin
+        [section_age] => 17,18
+        [section_gender] => 2
+      )
+    )
+
+    [types] => Array (
+      [0] => Array (
+        [type_name] => Lid
+      )
+
+      [1] => Array (
+        [type_name] => Leiding
+      )
+
+      [2] => Array (
+        [type_name] => Groepsleiding
+      )
+
+      [3] => Array (
+        [type_name] => Stam
+      )
+
+      [4] => Array (
+        [type_name] => Oudleiding
+      )
+
+      [5] => Array (
+        [type_name] => Ouder
+      )
+
+      [6] => Array (
+        [type_name] => VZW
+      )
+
+      [7] => Array (
+        [type_name] => Oudercomite
+      )
+
+      [8] => Array (
+        [type_name] => Webmaster
+      )
+    )
+  ) 
+```
