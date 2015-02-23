@@ -1,6 +1,11 @@
 getRentIDs methode
 =======================
 
+## Vereiste param's
+
+`account id` = `integer`
+
+
 ## Usage:
 
 ```php
@@ -12,7 +17,7 @@ require_once('Spinternet/Api.php');
 try {
   $spinternet = Spinternet_Api::getInstance();
   $gm = $spinternet->getGroupManagement($developer_key, $application_key, $secret_key, $debug);
-  $rentids = $gm->getRentIDs(332);
+$rentids = $gm->getRentIDs(/* account id */);
 
   var_dump($rentids);
   return $rentids;
@@ -31,7 +36,7 @@ array(1) {
     ["id"] => string(2) "74"
     ["name"] => string(25) "Lokalen St-Joris Turnhout"
     ["name_url"] => string(25) "lokalen-st-joris-turnhout"
-    ["lastmod"] => string(19) "2014-11-11 21:25:42" 
+    ["lastmod"] => string(19) "2014-11-11 21:25:42"
   }
 }
 ```
