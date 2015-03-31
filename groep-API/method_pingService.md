@@ -1,6 +1,8 @@
 pingService methode
 =======================
 
+Kijkt of de API werkt of niet. 
+
 ## Usage:
 
 ```php
